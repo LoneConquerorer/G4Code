@@ -1,0 +1,6 @@
+/run/numberOfThreads 12
+
+/run/initialize
+
+/random/setSeeds 48008997 4550457000
+/run/beamOn 100000000

@@ -1,0 +1,18 @@
+﻿  Building Custom Rule C:/Users/qzhang/Desktop/OnLine/PositroniumDecay/CMakeLists.txt
+  CMake does not need to re-run because C:/Users/qzhang/Desktop/OnLine/BuildPositroniumDecay/CMakeFiles/generate.stamp is up-to-date.
+  Pol01.cc
+  DetectorConstruction.cc
+  DetectorMessenger.cc
+  EventAction.cc
+  PhysListEmPolarized.cc
+  PhysicsList.cc
+  PhysicsListMessenger.cc
+  PrimaryGeneratorAction.cc
+  RunAction.cc
+  StepMax.cc
+  StepMaxMessenger.cc
+  SteppingAction.cc
+  Generating Code...
+c:\users\qzhang\desktop\online\positroniumdecay\pol01.cc(79): warning C4700: uninitialized local variable 'event' used
+  Pol01.vcxproj -> C:\Users\qzhang\Desktop\OnLine\BuildPositroniumDecay\Debug\Pol01.exe
+  Pol01.vcxproj -> C:/Users/qzhang/Desktop/OnLine/BuildPositroniumDecay/Debug/Pol01.pdb (Full PDB)

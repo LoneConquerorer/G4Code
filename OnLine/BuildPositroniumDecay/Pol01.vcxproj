@@ -1,0 +1,353 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{5C0E59C1-DDC2-38F1-9272-A7EB6F007312}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>Pol01</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\qzhang\Desktop\OnLine\BuildPositroniumDecay\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Pol01.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Pol01</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\qzhang\Desktop\OnLine\BuildPositroniumDecay\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Pol01.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Pol01</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\qzhang\Desktop\OnLine\BuildPositroniumDecay\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Pol01.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Pol01</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\qzhang\Desktop\OnLine\BuildPositroniumDecay\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Pol01.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Pol01</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\geant4_10_03_p02-INSTALL\include\Geant4;C:\Users\qzhang\Desktop\OnLine\PositroniumDecay\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -Zm200</AdditionalOptions>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>_CONSOLE;_WIN32;WIN32;OS;XPNET;_CRT_SECURE_NO_DEPRECATE;G4USE_STD11;G4_STORE_TRAJECTORY;G4VERBOSE;G4UI_USE;G4VIS_USE;G4INTY_USE_WIN32;G4UI_USE_WIN32;G4VIS_USE_OPENGLWIN32;G4VIS_USE_OPENGL;G4LIB_BUILD_DLL;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_WIN32;OS;XPNET;_CRT_SECURE_NO_DEPRECATE;G4USE_STD11;G4_STORE_TRAJECTORY;G4VERBOSE;G4UI_USE;G4VIS_USE;G4INTY_USE_WIN32;G4UI_USE_WIN32;G4VIS_USE_OPENGLWIN32;G4VIS_USE_OPENGL;G4LIB_BUILD_DLL;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\geant4_10_03_p02-INSTALL\include\Geant4;C:\Users\qzhang\Desktop\OnLine\PositroniumDecay\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\geant4_10_03_p02-INSTALL\include\Geant4;C:\Users\qzhang\Desktop\OnLine\PositroniumDecay\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\geant4_10_03_p02-INSTALL\lib\G4Tree.lib;C:\geant4_10_03_p02-INSTALL\lib\G4GMocren.lib;C:\geant4_10_03_p02-INSTALL\lib\G4visHepRep.lib;C:\geant4_10_03_p02-INSTALL\lib\G4RayTracer.lib;C:\geant4_10_03_p02-INSTALL\lib\G4VRML.lib;C:\geant4_10_03_p02-INSTALL\lib\G4OpenGL.lib;C:\geant4_10_03_p02-INSTALL\lib\G4gl2ps.lib;C:\geant4_10_03_p02-INSTALL\lib\G4interfaces.lib;C:\geant4_10_03_p02-INSTALL\lib\G4persistency.lib;C:\geant4_10_03_p02-INSTALL\lib\G4analysis.lib;C:\geant4_10_03_p02-INSTALL\lib\G4error_propagation.lib;C:\geant4_10_03_p02-INSTALL\lib\G4readout.lib;C:\geant4_10_03_p02-INSTALL\lib\G4physicslists.lib;C:\geant4_10_03_p02-INSTALL\lib\G4parmodels.lib;C:\geant4_10_03_p02-INSTALL\lib\G4FR.lib;C:\geant4_10_03_p02-INSTALL\lib\G4vis_management.lib;C:\geant4_10_03_p02-INSTALL\lib\G4modeling.lib;glu32.lib;opengl32.lib;C:\geant4_10_03_p02-INSTALL\lib\G4run.lib;C:\geant4_10_03_p02-INSTALL\lib\G4event.lib;C:\geant4_10_03_p02-INSTALL\lib\G4tracking.lib;C:\geant4_10_03_p02-INSTALL\lib\G4processes.lib;C:\geant4_10_03_p02-INSTALL\lib\G4expat.lib;C:\geant4_10_03_p02-INSTALL\lib\G4zlib.lib;C:\geant4_10_03_p02-INSTALL\lib\G4digits_hits.lib;C:\geant4_10_03_p02-INSTALL\lib\G4track.lib;C:\geant4_10_03_p02-INSTALL\lib\G4particles.lib;C:\geant4_10_03_p02-INSTALL\lib\G4geometry.lib;C:\geant4_10_03_p02-INSTALL\lib\G4materials.lib;C:\geant4_10_03_p02-INSTALL\lib\G4graphics_reps.lib;C:\geant4_10_03_p02-INSTALL\lib\G4intercoms.lib;C:\geant4_10_03_p02-INSTALL\lib\G4global.lib;C:\geant4_10_03_p02-INSTALL\lib\G4clhep.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/qzhang/Desktop/OnLine/BuildPositroniumDecay/Debug/Pol01.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/qzhang/Desktop/OnLine/BuildPositroniumDecay/Debug/Pol01.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\geant4_10_03_p02-INSTALL\include\Geant4;C:\Users\qzhang\Desktop\OnLine\PositroniumDecay\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -Zm200</AdditionalOptions>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <Optimization>Full</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>_CONSOLE;_WIN32;WIN32;OS;XPNET;_CRT_SECURE_NO_DEPRECATE;G4USE_STD11;NDEBUG;G4_STORE_TRAJECTORY;G4VERBOSE;G4UI_USE;G4VIS_USE;G4INTY_USE_WIN32;G4UI_USE_WIN32;G4VIS_USE_OPENGLWIN32;G4VIS_USE_OPENGL;G4LIB_BUILD_DLL;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_CONSOLE;_WIN32;OS;XPNET;_CRT_SECURE_NO_DEPRECATE;G4USE_STD11;NDEBUG;G4_STORE_TRAJECTORY;G4VERBOSE;G4UI_USE;G4VIS_USE;G4INTY_USE_WIN32;G4UI_USE_WIN32;G4VIS_USE_OPENGLWIN32;G4VIS_USE_OPENGL;G4LIB_BUILD_DLL;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\geant4_10_03_p02-INSTALL\include\Geant4;C:\Users\qzhang\Desktop\OnLine\PositroniumDecay\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\geant4_10_03_p02-INSTALL\include\Geant4;C:\Users\qzhang\Desktop\OnLine\PositroniumDecay\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\geant4_10_03_p02-INSTALL\lib\G4Tree.lib;C:\geant4_10_03_p02-INSTALL\lib\G4GMocren.lib;C:\geant4_10_03_p02-INSTALL\lib\G4visHepRep.lib;C:\geant4_10_03_p02-INSTALL\lib\G4RayTracer.lib;C:\geant4_10_03_p02-INSTALL\lib\G4VRML.lib;C:\geant4_10_03_p02-INSTALL\lib\G4OpenGL.lib;C:\geant4_10_03_p02-INSTALL\lib\G4gl2ps.lib;C:\geant4_10_03_p02-INSTALL\lib\G4interfaces.lib;C:\geant4_10_03_p02-INSTALL\lib\G4persistency.lib;C:\geant4_10_03_p02-INSTALL\lib\G4analysis.lib;C:\geant4_10_03_p02-INSTALL\lib\G4error_propagation.lib;C:\geant4_10_03_p02-INSTALL\lib\G4readout.lib;C:\geant4_10_03_p02-INSTALL\lib\G4physicslists.lib;C:\geant4_10_03_p02-INSTALL\lib\G4parmodels.lib;C:\geant4_10_03_p02-INSTALL\lib\G4FR.lib;C:\geant4_10_03_p02-INSTALL\lib\G4vis_management.lib;C:\geant4_10_03_p02-INSTALL\lib\G4modeling.lib;glu32.lib;opengl32.lib;C:\geant4_10_03_p02-INSTALL\lib\G4run.lib;C:\geant4_10_03_p02-INSTALL\lib\G4event.lib;C:\geant4_10_03_p02-INSTALL\lib\G4tracking.lib;C:\geant4_10_03_p02-INSTALL\lib\G4processes.lib;C:\geant4_10_03_p02-INSTALL\lib\G4expat.lib;C:\geant4_10_03_p02-INSTALL\lib\G4zlib.lib;C:\geant4_10_03_p02-INSTALL\lib\G4digits_hits.lib;C:\geant4_10_03_p02-INSTALL\lib\G4track.lib;C:\geant4_10_03_p02-INSTALL\lib\G4particles.lib;C:\geant4_10_03_p02-INSTALL\lib\G4geometry.lib;C:\geant4_10_03_p02-INSTALL\lib\G4materials.lib;C:\geant4_10_03_p02-INSTALL\lib\G4graphics_reps.lib;C:\geant4_10_03_p02-INSTALL\lib\G4intercoms.lib;C:\geant4_10_03_p02-INSTALL\lib\G4global.lib;C:\geant4_10_03_p02-INSTALL\lib\G4clhep.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/qzhang/Desktop/OnLine/BuildPositroniumDecay/Release/Pol01.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/qzhang/Desktop/OnLine/BuildPositroniumDecay/Release/Pol01.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\geant4_10_03_p02-INSTALL\include\Geant4;C:\Users\qzhang\Desktop\OnLine\PositroniumDecay\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -Zm200</AdditionalOptions>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FavorSizeOrSpeed>Size</FavorSizeOrSpeed>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>_CONSOLE;_WIN32;WIN32;OS;XPNET;_CRT_SECURE_NO_DEPRECATE;G4USE_STD11;NDEBUG;G4_STORE_TRAJECTORY;G4VERBOSE;G4UI_USE;G4VIS_USE;G4INTY_USE_WIN32;G4UI_USE_WIN32;G4VIS_USE_OPENGLWIN32;G4VIS_USE_OPENGL;G4LIB_BUILD_DLL;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_CONSOLE;_WIN32;OS;XPNET;_CRT_SECURE_NO_DEPRECATE;G4USE_STD11;NDEBUG;G4_STORE_TRAJECTORY;G4VERBOSE;G4UI_USE;G4VIS_USE;G4INTY_USE_WIN32;G4UI_USE_WIN32;G4VIS_USE_OPENGLWIN32;G4VIS_USE_OPENGL;G4LIB_BUILD_DLL;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\geant4_10_03_p02-INSTALL\include\Geant4;C:\Users\qzhang\Desktop\OnLine\PositroniumDecay\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\geant4_10_03_p02-INSTALL\include\Geant4;C:\Users\qzhang\Desktop\OnLine\PositroniumDecay\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\geant4_10_03_p02-INSTALL\lib\G4Tree.lib;C:\geant4_10_03_p02-INSTALL\lib\G4GMocren.lib;C:\geant4_10_03_p02-INSTALL\lib\G4visHepRep.lib;C:\geant4_10_03_p02-INSTALL\lib\G4RayTracer.lib;C:\geant4_10_03_p02-INSTALL\lib\G4VRML.lib;C:\geant4_10_03_p02-INSTALL\lib\G4OpenGL.lib;C:\geant4_10_03_p02-INSTALL\lib\G4gl2ps.lib;C:\geant4_10_03_p02-INSTALL\lib\G4interfaces.lib;C:\geant4_10_03_p02-INSTALL\lib\G4persistency.lib;C:\geant4_10_03_p02-INSTALL\lib\G4analysis.lib;C:\geant4_10_03_p02-INSTALL\lib\G4error_propagation.lib;C:\geant4_10_03_p02-INSTALL\lib\G4readout.lib;C:\geant4_10_03_p02-INSTALL\lib\G4physicslists.lib;C:\geant4_10_03_p02-INSTALL\lib\G4parmodels.lib;C:\geant4_10_03_p02-INSTALL\lib\G4FR.lib;C:\geant4_10_03_p02-INSTALL\lib\G4vis_management.lib;C:\geant4_10_03_p02-INSTALL\lib\G4modeling.lib;glu32.lib;opengl32.lib;C:\geant4_10_03_p02-INSTALL\lib\G4run.lib;C:\geant4_10_03_p02-INSTALL\lib\G4event.lib;C:\geant4_10_03_p02-INSTALL\lib\G4tracking.lib;C:\geant4_10_03_p02-INSTALL\lib\G4processes.lib;C:\geant4_10_03_p02-INSTALL\lib\G4expat.lib;C:\geant4_10_03_p02-INSTALL\lib\G4zlib.lib;C:\geant4_10_03_p02-INSTALL\lib\G4digits_hits.lib;C:\geant4_10_03_p02-INSTALL\lib\G4track.lib;C:\geant4_10_03_p02-INSTALL\lib\G4particles.lib;C:\geant4_10_03_p02-INSTALL\lib\G4geometry.lib;C:\geant4_10_03_p02-INSTALL\lib\G4materials.lib;C:\geant4_10_03_p02-INSTALL\lib\G4graphics_reps.lib;C:\geant4_10_03_p02-INSTALL\lib\G4intercoms.lib;C:\geant4_10_03_p02-INSTALL\lib\G4global.lib;C:\geant4_10_03_p02-INSTALL\lib\G4clhep.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/qzhang/Desktop/OnLine/BuildPositroniumDecay/MinSizeRel/Pol01.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/qzhang/Desktop/OnLine/BuildPositroniumDecay/MinSizeRel/Pol01.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\geant4_10_03_p02-INSTALL\include\Geant4;C:\Users\qzhang\Desktop\OnLine\PositroniumDecay\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -Zm200</AdditionalOptions>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>_CONSOLE;_WIN32;WIN32;OS;XPNET;_CRT_SECURE_NO_DEPRECATE;G4USE_STD11;G4_STORE_TRAJECTORY;G4VERBOSE;G4UI_USE;G4VIS_USE;G4INTY_USE_WIN32;G4UI_USE_WIN32;G4VIS_USE_OPENGLWIN32;G4VIS_USE_OPENGL;G4LIB_BUILD_DLL;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_CONSOLE;_WIN32;OS;XPNET;_CRT_SECURE_NO_DEPRECATE;G4USE_STD11;G4_STORE_TRAJECTORY;G4VERBOSE;G4UI_USE;G4VIS_USE;G4INTY_USE_WIN32;G4UI_USE_WIN32;G4VIS_USE_OPENGLWIN32;G4VIS_USE_OPENGL;G4LIB_BUILD_DLL;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\geant4_10_03_p02-INSTALL\include\Geant4;C:\Users\qzhang\Desktop\OnLine\PositroniumDecay\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\geant4_10_03_p02-INSTALL\include\Geant4;C:\Users\qzhang\Desktop\OnLine\PositroniumDecay\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\geant4_10_03_p02-INSTALL\lib\G4Tree.lib;C:\geant4_10_03_p02-INSTALL\lib\G4GMocren.lib;C:\geant4_10_03_p02-INSTALL\lib\G4visHepRep.lib;C:\geant4_10_03_p02-INSTALL\lib\G4RayTracer.lib;C:\geant4_10_03_p02-INSTALL\lib\G4VRML.lib;C:\geant4_10_03_p02-INSTALL\lib\G4OpenGL.lib;C:\geant4_10_03_p02-INSTALL\lib\G4gl2ps.lib;C:\geant4_10_03_p02-INSTALL\lib\G4interfaces.lib;C:\geant4_10_03_p02-INSTALL\lib\G4persistency.lib;C:\geant4_10_03_p02-INSTALL\lib\G4analysis.lib;C:\geant4_10_03_p02-INSTALL\lib\G4error_propagation.lib;C:\geant4_10_03_p02-INSTALL\lib\G4readout.lib;C:\geant4_10_03_p02-INSTALL\lib\G4physicslists.lib;C:\geant4_10_03_p02-INSTALL\lib\G4parmodels.lib;C:\geant4_10_03_p02-INSTALL\lib\G4FR.lib;C:\geant4_10_03_p02-INSTALL\lib\G4vis_management.lib;C:\geant4_10_03_p02-INSTALL\lib\G4modeling.lib;glu32.lib;opengl32.lib;C:\geant4_10_03_p02-INSTALL\lib\G4run.lib;C:\geant4_10_03_p02-INSTALL\lib\G4event.lib;C:\geant4_10_03_p02-INSTALL\lib\G4tracking.lib;C:\geant4_10_03_p02-INSTALL\lib\G4processes.lib;C:\geant4_10_03_p02-INSTALL\lib\G4expat.lib;C:\geant4_10_03_p02-INSTALL\lib\G4zlib.lib;C:\geant4_10_03_p02-INSTALL\lib\G4digits_hits.lib;C:\geant4_10_03_p02-INSTALL\lib\G4track.lib;C:\geant4_10_03_p02-INSTALL\lib\G4particles.lib;C:\geant4_10_03_p02-INSTALL\lib\G4geometry.lib;C:\geant4_10_03_p02-INSTALL\lib\G4materials.lib;C:\geant4_10_03_p02-INSTALL\lib\G4graphics_reps.lib;C:\geant4_10_03_p02-INSTALL\lib\G4intercoms.lib;C:\geant4_10_03_p02-INSTALL\lib\G4global.lib;C:\geant4_10_03_p02-INSTALL\lib\G4clhep.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/qzhang/Desktop/OnLine/BuildPositroniumDecay/RelWithDebInfo/Pol01.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/qzhang/Desktop/OnLine/BuildPositroniumDecay/RelWithDebInfo/Pol01.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\qzhang\Desktop\OnLine\PositroniumDecay\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/qzhang/Desktop/OnLine/PositroniumDecay/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/qzhang/Desktop/OnLine/PositroniumDecay -BC:/Users/qzhang/Desktop/OnLine/BuildPositroniumDecay --check-stamp-file C:/Users/qzhang/Desktop/OnLine/BuildPositroniumDecay/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/qzhang/Desktop/OnLine/PositroniumDecay/CMakeLists.txt;C:\Users\qzhang\Desktop\OnLine\PositroniumDecay\CMakeLists.txt;C:\Users\qzhang\Desktop\OnLine\BuildPositroniumDecay\CMakeFiles\3.9.0\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\qzhang\Desktop\OnLine\BuildPositroniumDecay\CMakeFiles\3.9.0\CMakeCCompiler.cmake;C:\Users\qzhang\Desktop\OnLine\BuildPositroniumDecay\CMakeFiles\3.9.0\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC.cmake;C:\Users\qzhang\Desktop\OnLine\BuildPositroniumDecay\CMakeFiles\3.9.0\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCommonLanguageInclude.cmake;C:\geant4_10_03_p02-INSTALL\lib\Geant4-10.3.2\Geant4ConfigVersion.cmake;C:\geant4_10_03_p02-INSTALL\lib\Geant4-10.3.2\Geant4Config.cmake;C:\geant4_10_03_p02-INSTALL\lib\Geant4-10.3.2\Modules\IntelCompileFeatures.cmake;C:\geant4_10_03_p02-INSTALL\lib\Geant4-10.3.2\Geant4LibraryDepends.cmake;C:\geant4_10_03_p02-INSTALL\lib\Geant4-10.3.2\Geant4LibraryDepends-debug.cmake;C:\geant4_10_03_p02-INSTALL\lib\Geant4-10.3.2\Geant4LibraryDepends-release.cmake;C:\geant4_10_03_p02-INSTALL\lib\Geant4-10.3.2\UseGeant4.cmake;C:\Users\qzhang\Desktop\OnLine\PositroniumDecay\heprep2.mac;C:\Users\qzhang\Desktop\OnLine\PositroniumDecay\histo.mac;C:\Users\qzhang\Desktop\OnLine\PositroniumDecay\histos.mac;C:\Users\qzhang\Desktop\OnLine\PositroniumDecay\pol01.in;C:\Users\qzhang\Desktop\OnLine\PositroniumDecay\Pol01.out;C:\Users\qzhang\Desktop\OnLine\PositroniumDecay\vis.mac;C:\Users\qzhang\Desktop\OnLine\PositroniumDecay\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\qzhang\Desktop\OnLine\BuildPositroniumDecay\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/qzhang/Desktop/OnLine/PositroniumDecay/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/qzhang/Desktop/OnLine/PositroniumDecay -BC:/Users/qzhang/Desktop/OnLine/BuildPositroniumDecay --check-stamp-file C:/Users/qzhang/Desktop/OnLine/BuildPositroniumDecay/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/qzhang/Desktop/OnLine/PositroniumDecay/CMakeLists.txt;C:\Users\qzhang\Desktop\OnLine\PositroniumDecay\CMakeLists.txt;C:\Users\qzhang\Desktop\OnLine\BuildPositroniumDecay\CMakeFiles\3.9.0\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\qzhang\Desktop\OnLine\BuildPositroniumDecay\CMakeFiles\3.9.0\CMakeCCompiler.cmake;C:\Users\qzhang\Desktop\OnLine\BuildPositroniumDecay\CMakeFiles\3.9.0\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC.cmake;C:\Users\qzhang\Desktop\OnLine\BuildPositroniumDecay\CMakeFiles\3.9.0\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCommonLanguageInclude.cmake;C:\geant4_10_03_p02-INSTALL\lib\Geant4-10.3.2\Geant4ConfigVersion.cmake;C:\geant4_10_03_p02-INSTALL\lib\Geant4-10.3.2\Geant4Config.cmake;C:\geant4_10_03_p02-INSTALL\lib\Geant4-10.3.2\Modules\IntelCompileFeatures.cmake;C:\geant4_10_03_p02-INSTALL\lib\Geant4-10.3.2\Geant4LibraryDepends.cmake;C:\geant4_10_03_p02-INSTALL\lib\Geant4-10.3.2\Geant4LibraryDepends-debug.cmake;C:\geant4_10_03_p02-INSTALL\lib\Geant4-10.3.2\Geant4LibraryDepends-release.cmake;C:\geant4_10_03_p02-INSTALL\lib\Geant4-10.3.2\UseGeant4.cmake;C:\Users\qzhang\Desktop\OnLine\PositroniumDecay\heprep2.mac;C:\Users\qzhang\Desktop\OnLine\PositroniumDecay\histo.mac;C:\Users\qzhang\Desktop\OnLine\PositroniumDecay\histos.mac;C:\Users\qzhang\Desktop\OnLine\PositroniumDecay\pol01.in;C:\Users\qzhang\Desktop\OnLine\PositroniumDecay\Pol01.out;C:\Users\qzhang\Desktop\OnLine\PositroniumDecay\vis.mac;C:\Users\qzhang\Desktop\OnLine\PositroniumDecay\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\qzhang\Desktop\OnLine\BuildPositroniumDecay\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Users/qzhang/Desktop/OnLine/PositroniumDecay/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/qzhang/Desktop/OnLine/PositroniumDecay -BC:/Users/qzhang/Desktop/OnLine/BuildPositroniumDecay --check-stamp-file C:/Users/qzhang/Desktop/OnLine/BuildPositroniumDecay/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/qzhang/Desktop/OnLine/PositroniumDecay/CMakeLists.txt;C:\Users\qzhang\Desktop\OnLine\PositroniumDecay\CMakeLists.txt;C:\Users\qzhang\Desktop\OnLine\BuildPositroniumDecay\CMakeFiles\3.9.0\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\qzhang\Desktop\OnLine\BuildPositroniumDecay\CMakeFiles\3.9.0\CMakeCCompiler.cmake;C:\Users\qzhang\Desktop\OnLine\BuildPositroniumDecay\CMakeFiles\3.9.0\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC.cmake;C:\Users\qzhang\Desktop\OnLine\BuildPositroniumDecay\CMakeFiles\3.9.0\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCommonLanguageInclude.cmake;C:\geant4_10_03_p02-INSTALL\lib\Geant4-10.3.2\Geant4ConfigVersion.cmake;C:\geant4_10_03_p02-INSTALL\lib\Geant4-10.3.2\Geant4Config.cmake;C:\geant4_10_03_p02-INSTALL\lib\Geant4-10.3.2\Modules\IntelCompileFeatures.cmake;C:\geant4_10_03_p02-INSTALL\lib\Geant4-10.3.2\Geant4LibraryDepends.cmake;C:\geant4_10_03_p02-INSTALL\lib\Geant4-10.3.2\Geant4LibraryDepends-debug.cmake;C:\geant4_10_03_p02-INSTALL\lib\Geant4-10.3.2\Geant4LibraryDepends-release.cmake;C:\geant4_10_03_p02-INSTALL\lib\Geant4-10.3.2\UseGeant4.cmake;C:\Users\qzhang\Desktop\OnLine\PositroniumDecay\heprep2.mac;C:\Users\qzhang\Desktop\OnLine\PositroniumDecay\histo.mac;C:\Users\qzhang\Desktop\OnLine\PositroniumDecay\histos.mac;C:\Users\qzhang\Desktop\OnLine\PositroniumDecay\pol01.in;C:\Users\qzhang\Desktop\OnLine\PositroniumDecay\Pol01.out;C:\Users\qzhang\Desktop\OnLine\PositroniumDecay\vis.mac;C:\Users\qzhang\Desktop\OnLine\PositroniumDecay\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\qzhang\Desktop\OnLine\BuildPositroniumDecay\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Users/qzhang/Desktop/OnLine/PositroniumDecay/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/qzhang/Desktop/OnLine/PositroniumDecay -BC:/Users/qzhang/Desktop/OnLine/BuildPositroniumDecay --check-stamp-file C:/Users/qzhang/Desktop/OnLine/BuildPositroniumDecay/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/qzhang/Desktop/OnLine/PositroniumDecay/CMakeLists.txt;C:\Users\qzhang\Desktop\OnLine\PositroniumDecay\CMakeLists.txt;C:\Users\qzhang\Desktop\OnLine\BuildPositroniumDecay\CMakeFiles\3.9.0\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\qzhang\Desktop\OnLine\BuildPositroniumDecay\CMakeFiles\3.9.0\CMakeCCompiler.cmake;C:\Users\qzhang\Desktop\OnLine\BuildPositroniumDecay\CMakeFiles\3.9.0\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC.cmake;C:\Users\qzhang\Desktop\OnLine\BuildPositroniumDecay\CMakeFiles\3.9.0\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCommonLanguageInclude.cmake;C:\geant4_10_03_p02-INSTALL\lib\Geant4-10.3.2\Geant4ConfigVersion.cmake;C:\geant4_10_03_p02-INSTALL\lib\Geant4-10.3.2\Geant4Config.cmake;C:\geant4_10_03_p02-INSTALL\lib\Geant4-10.3.2\Modules\IntelCompileFeatures.cmake;C:\geant4_10_03_p02-INSTALL\lib\Geant4-10.3.2\Geant4LibraryDepends.cmake;C:\geant4_10_03_p02-INSTALL\lib\Geant4-10.3.2\Geant4LibraryDepends-debug.cmake;C:\geant4_10_03_p02-INSTALL\lib\Geant4-10.3.2\Geant4LibraryDepends-release.cmake;C:\geant4_10_03_p02-INSTALL\lib\Geant4-10.3.2\UseGeant4.cmake;C:\Users\qzhang\Desktop\OnLine\PositroniumDecay\heprep2.mac;C:\Users\qzhang\Desktop\OnLine\PositroniumDecay\histo.mac;C:\Users\qzhang\Desktop\OnLine\PositroniumDecay\histos.mac;C:\Users\qzhang\Desktop\OnLine\PositroniumDecay\pol01.in;C:\Users\qzhang\Desktop\OnLine\PositroniumDecay\Pol01.out;C:\Users\qzhang\Desktop\OnLine\PositroniumDecay\vis.mac;C:\Users\qzhang\Desktop\OnLine\PositroniumDecay\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\qzhang\Desktop\OnLine\BuildPositroniumDecay\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\qzhang\Desktop\OnLine\PositroniumDecay\Pol01.cc" />
+    <ClCompile Include="C:\Users\qzhang\Desktop\OnLine\PositroniumDecay\src\DetectorConstruction.cc" />
+    <ClCompile Include="C:\Users\qzhang\Desktop\OnLine\PositroniumDecay\src\DetectorMessenger.cc" />
+    <ClCompile Include="C:\Users\qzhang\Desktop\OnLine\PositroniumDecay\src\EventAction.cc" />
+    <ClCompile Include="C:\Users\qzhang\Desktop\OnLine\PositroniumDecay\src\PhysListEmPolarized.cc" />
+    <ClCompile Include="C:\Users\qzhang\Desktop\OnLine\PositroniumDecay\src\PhysicsList.cc" />
+    <ClCompile Include="C:\Users\qzhang\Desktop\OnLine\PositroniumDecay\src\PhysicsListMessenger.cc" />
+    <ClCompile Include="C:\Users\qzhang\Desktop\OnLine\PositroniumDecay\src\PrimaryGeneratorAction.cc" />
+    <ClCompile Include="C:\Users\qzhang\Desktop\OnLine\PositroniumDecay\src\RunAction.cc" />
+    <ClCompile Include="C:\Users\qzhang\Desktop\OnLine\PositroniumDecay\src\StepMax.cc" />
+    <ClCompile Include="C:\Users\qzhang\Desktop\OnLine\PositroniumDecay\src\StepMaxMessenger.cc" />
+    <ClCompile Include="C:\Users\qzhang\Desktop\OnLine\PositroniumDecay\src\SteppingAction.cc" />
+    <ClInclude Include="C:\Users\qzhang\Desktop\OnLine\PositroniumDecay\include\DetectorConstruction.hh" />
+    <ClInclude Include="C:\Users\qzhang\Desktop\OnLine\PositroniumDecay\include\DetectorMessenger.hh" />
+    <ClInclude Include="C:\Users\qzhang\Desktop\OnLine\PositroniumDecay\include\EventAction.hh" />
+    <ClInclude Include="C:\Users\qzhang\Desktop\OnLine\PositroniumDecay\include\PhysListEmPolarized.hh" />
+    <ClInclude Include="C:\Users\qzhang\Desktop\OnLine\PositroniumDecay\include\PhysicsList.hh" />
+    <ClInclude Include="C:\Users\qzhang\Desktop\OnLine\PositroniumDecay\include\PhysicsListMessenger.hh" />
+    <ClInclude Include="C:\Users\qzhang\Desktop\OnLine\PositroniumDecay\include\PrimaryGeneratorAction.hh" />
+    <ClInclude Include="C:\Users\qzhang\Desktop\OnLine\PositroniumDecay\include\ProcessesCount.hh" />
+    <ClInclude Include="C:\Users\qzhang\Desktop\OnLine\PositroniumDecay\include\RunAction.hh" />
+    <ClInclude Include="C:\Users\qzhang\Desktop\OnLine\PositroniumDecay\include\StepMax.hh" />
+    <ClInclude Include="C:\Users\qzhang\Desktop\OnLine\PositroniumDecay\include\StepMaxMessenger.hh" />
+    <ClInclude Include="C:\Users\qzhang\Desktop\OnLine\PositroniumDecay\include\SteppingAction.hh" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\qzhang\Desktop\OnLine\BuildPositroniumDecay\ZERO_CHECK.vcxproj">
+      <Project>{D20C2D50-103C-395B-869D-163EAA54F0FF}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

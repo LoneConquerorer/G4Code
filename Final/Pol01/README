@@ -1,0 +1,109 @@
+
+Sept.16 2017
+--------------------------------------------------------------------
+
+====================================================================
+Quantum Enganglemnt Simulation Based on Geant4 Polarization Modeling
+====================================================================
+
+	
+ 1- GEOMETRY DEFINITION
+ 
+      The geometry consists of two LaBr detectors, six NaI detectors, 
+      one lead box, and one Aluminium chip. six NaI detectors are 
+      wrapped by lead.
+
+      The gemometry dimensions are from the lab set up.
+ 	
+ 2- PHYSICS LIST
+ 
+      polarized EM physics has been slected.
+ 	 
+ 3- EVENT GENERATOR
+ 
+      The radicative source is located in the center of lead box. 
+      positronium is used to simulate the two gamma ray decay. The initial 
+      energy are set to 0 Mev. The gamma ray momentum direction are set to
+      (0, 0, 1), and the polarization direction is set to the cross product
+      of (0, 0, 1) X (0, 1, 0). 
+ 	
+ 4- PHYSICS
+ 
+      This simulatiion uses the physics processes of polarized Compton 
+      scattering, multiple scattering (unwanted), and polarized positronium 
+      annihilation.
+
+ 5- DATA COLLECTION
+         
+      The energy which deposited on NaI detectors are out to .txt files.
+ 	 				
+ 6- VISUALIZATION
+
+      To visulize the geometry setup, the default tool is used.
+      For educational purpose, this simulation has chosen spreadsheet as
+      a tool to visulize the distribution of energy deposited on detectors.
+      The beta values and anisotropy can be calculated by spreadsheet tools.
+
+      User can watch the process of gamma ray and other particles. Also,
+      user can manully set the gates to see how the distribution is modified.
+      User can calculate and graphy the derivations of beta values and 
+      anisotropy. At the same tiem, the chart can be generated.
+
+ 7- RUN THE SIMULATION
+ 
+      PreInit> /control/execute vis.mac 
+      will display the geometry setup and default gamma ray processes.
+
+      /run/beamOn 100
+      will animate the 100 processes of gamma ray pathes and some scatterings.
+
+      pol01 testrun.mac
+      will generate 3-fold and 4-fold energy deposit data. The data will be 
+      output to corresponding .txt files.
+
+ 8- DATA ANALYSIS
+
+      Copy .txt files and paste it to spreadsheet. 
+
+      Select the LaBr2 column and one NaI column, select Insert to insert a
+      scatter plot chart. The distribution of energy depoisted on detector 
+      will be displayed.
+      
+      Use =if(cell.value = 0, 0, 1) formula and to predfined gates to filter 
+      out invalid data, and at the same time, a new grid which contian only 
+      valid data will be created. 
+
+      Use spreadsheet and beta and anieotrophy equations to calculate the 
+      corresponding values. And then use Insert to make a chart. After select
+      dots on chart, Select Add Trendline to generate the bell curve.
+
+      This bell curve is the final result of this simulation.
+
+ 9- BEHIND THE SCENCE
+
+      In order to simulate the lab process, there are three adjustments used
+      to match the lab results. The first adjustment is for detector efficiency.
+      The Gaussian distrubution is applied to data to simulate the physical
+      effect of dector. Due to the solid angle between radioactive source and
+      surface of detector, the energy deposited are not same on the center and 
+      on the edge of detector. The second adjustment is to minimize the bias of
+      orientation of detectors. Due to the Monte-Carlo simulation use statistic 
+      distribution to reflect nature process, it takes a long time to stable its
+      output. Rotated detector setup has been used during this research. 
+      The third adjustment is on polarization data collection. Based on the lab 
+      results and theory, most of energy will be deposited on the detectors 
+      which are loacted on the polarized direction. This simulation uses the 
+      data from the detectors on the strong polarized direction as output.  
+
+ 10- FUTURE IMPROVEMENT
+
+      Improve the code on detector efficiency by incorperate the solid angle
+      into detector. 
+      Speed up the event  generation by adopting modified Monte-Carlo method.
+      Modify the PhysicsList to make positronium annihilation more realistic. 
+
+ 11- REFERENCE
+
+     I.  Geant4 Collaboration 2014 Geant4 User’s Guide for Application Developers 4.10.1
+     II. Geant4 Physics Reference Manual Version: geant4 10.2 2015
+     III.Geant4 Pol01 - interaction of polarized beam with polarized target 2014

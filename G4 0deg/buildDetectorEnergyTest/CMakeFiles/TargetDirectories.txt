@@ -1,0 +1,4 @@
+C:/Users/qzhang/Desktop/buildDetectorEnergyTest/CMakeFiles/INSTALL.dir
+C:/Users/qzhang/Desktop/buildDetectorEnergyTest/CMakeFiles/rdecay02.dir
+C:/Users/qzhang/Desktop/buildDetectorEnergyTest/CMakeFiles/ALL_BUILD.dir
+C:/Users/qzhang/Desktop/buildDetectorEnergyTest/CMakeFiles/ZERO_CHECK.dir

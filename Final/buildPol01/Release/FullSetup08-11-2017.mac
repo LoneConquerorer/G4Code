@@ -1,0 +1,84 @@
+#
+# Camera and lights commands
+/vis/viewer/set/viewpointVector 0.136449 0.906308 0.399985
+/vis/viewer/set/upVector 0 1 0
+/vis/viewer/set/projection orthogonal
+/vis/viewer/zoomTo 0.428362
+/vis/viewer/scaleTo 1 1 1
+/vis/viewer/set/targetPoint -15.7378 5.62371 0.221279 cm 
+# Note that if you have not set a target point, the vis system sets
+# a target point based on the scene - plus any panning and dollying -
+# so don't be alarmed by strange coordinates here.
+/vis/viewer/dollyTo 0 fm 
+/vis/viewer/set/lightsMove object
+/vis/viewer/set/lightsVector 1 1 1
+/vis/viewer/set/rotationStyle constrainUpDirection
+/vis/viewer/set/background 0 0 0 1
+/vis/viewer/set/defaultColour 1 1 1 1
+/vis/viewer/set/defaultTextColour 0 0 1 1
+#
+# Drawing style commands
+/vis/viewer/set/style surface
+/vis/viewer/set/hiddenEdge false
+/vis/viewer/set/auxiliaryEdge false
+/vis/viewer/set/hiddenMarker false
+/vis/viewer/set/globalLineWidthScale 1
+/vis/viewer/set/globalMarkerScale 1
+#
+# Scene-modifying commands
+/vis/viewer/set/culling global true
+/vis/viewer/set/culling invisible true
+/vis/viewer/set/culling density false
+/vis/viewer/set/culling coveredDaughters false
+/vis/viewer/set/sectionPlane off
+/vis/viewer/set/cutawayMode union
+/vis/viewer/clearCutawayPlanes
+# No cutaway planes defined.
+/vis/viewer/set/explodeFactor 1 0 0 0 fm 
+/vis/viewer/set/lineSegmentsPerCircle 72
+#
+# Touchable commands
+/vis/viewer/clearVisAttributesModifiers
+/vis/set/touchable World 0 Detector1 0
+/vis/touchable/set/colour 0 0 1 1
+/vis/touchable/set/visibility true
+/vis/set/touchable World 0 Detector2 0
+/vis/touchable/set/colour 0 0 1 1
+/vis/touchable/set/visibility true
+/vis/set/touchable World 0 Detector3 0
+/vis/touchable/set/colour 0 0 1 1
+/vis/touchable/set/visibility true
+/vis/set/touchable World 0 Detector4 0
+/vis/touchable/set/colour 0 0 1 1
+/vis/touchable/set/visibility true
+/vis/set/touchable World 0 Detector5 0
+/vis/touchable/set/colour 0 0 1 1
+/vis/touchable/set/visibility true
+/vis/set/touchable World 0 Detector6 0
+/vis/touchable/set/colour 0 0 1 1
+/vis/touchable/set/visibility true
+/vis/set/touchable World 0 LaBr2 0
+/vis/touchable/set/colour 1 0.690196 0.192157 1
+/vis/touchable/set/visibility true
+/vis/set/touchable World 0 LaBr1 0
+/vis/touchable/set/colour 1 0.690196 0.192157 1
+/vis/touchable/set/visibility true
+/vis/set/touchable World 0 PbShield_2 0
+/vis/touchable/set/colour 0.313725 0.313725 0.313725 1
+/vis/touchable/set/visibility true
+/vis/set/touchable World 0 PbShield_3 0
+/vis/touchable/set/colour 0.313725 0.313725 0.313725 1
+/vis/touchable/set/visibility true
+/vis/set/touchable World 0 PbShield_4 0
+/vis/touchable/set/colour 0.313725 0.313725 0.313725 1
+/vis/touchable/set/visibility true
+/vis/set/touchable World 0 PbShield_5 0
+/vis/touchable/set/colour 0.313725 0.313725 0.313725 1
+/vis/touchable/set/visibility true
+/vis/set/touchable World 0 PbShield_6 0
+/vis/touchable/set/colour 0.313725 0.313725 0.313725 1
+/vis/touchable/set/visibility true
+/vis/set/touchable World 0 Source_Shield 0
+/vis/touchable/set/colour 0.882353 0 0 1
+/vis/touchable/set/visibility true
+

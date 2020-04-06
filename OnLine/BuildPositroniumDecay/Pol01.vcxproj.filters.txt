@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\qzhang\Desktop\OnLine\PositroniumDecay\Pol01.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\qzhang\Desktop\OnLine\PositroniumDecay\src\DetectorConstruction.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\qzhang\Desktop\OnLine\PositroniumDecay\src\DetectorMessenger.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\qzhang\Desktop\OnLine\PositroniumDecay\src\EventAction.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\qzhang\Desktop\OnLine\PositroniumDecay\src\PhysListEmPolarized.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\qzhang\Desktop\OnLine\PositroniumDecay\src\PhysicsList.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\qzhang\Desktop\OnLine\PositroniumDecay\src\PhysicsListMessenger.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\qzhang\Desktop\OnLine\PositroniumDecay\src\PrimaryGeneratorAction.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\qzhang\Desktop\OnLine\PositroniumDecay\src\RunAction.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\qzhang\Desktop\OnLine\PositroniumDecay\src\StepMax.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\qzhang\Desktop\OnLine\PositroniumDecay\src\StepMaxMessenger.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\qzhang\Desktop\OnLine\PositroniumDecay\src\SteppingAction.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\qzhang\Desktop\OnLine\PositroniumDecay\include\DetectorConstruction.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\qzhang\Desktop\OnLine\PositroniumDecay\include\DetectorMessenger.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\qzhang\Desktop\OnLine\PositroniumDecay\include\EventAction.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\qzhang\Desktop\OnLine\PositroniumDecay\include\PhysListEmPolarized.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\qzhang\Desktop\OnLine\PositroniumDecay\include\PhysicsList.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\qzhang\Desktop\OnLine\PositroniumDecay\include\PhysicsListMessenger.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\qzhang\Desktop\OnLine\PositroniumDecay\include\PrimaryGeneratorAction.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\qzhang\Desktop\OnLine\PositroniumDecay\include\ProcessesCount.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\qzhang\Desktop\OnLine\PositroniumDecay\include\RunAction.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\qzhang\Desktop\OnLine\PositroniumDecay\include\StepMax.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\qzhang\Desktop\OnLine\PositroniumDecay\include\StepMaxMessenger.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\qzhang\Desktop\OnLine\PositroniumDecay\include\SteppingAction.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\qzhang\Desktop\OnLine\PositroniumDecay\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{030B96AA-588A-357A-8E82-91C4765A6786}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{B3E31710-0BC8-3F49-B5CE-9356A75B2BC2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

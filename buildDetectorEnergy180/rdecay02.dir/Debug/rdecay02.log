@@ -1,0 +1,20 @@
+﻿  Building Custom Rule C:/Users/qzhang/Desktop/detectorEnergy180/CMakeLists.txt
+  CMake does not need to re-run because C:/Users/qzhang/Desktop/buildDetectorEnergy180/CMakeFiles/generate.stamp is up-to-date.
+  rdecay02.cc
+  ActionInitialization.cc
+  DetectorConstruction.cc
+  DetectorMessenger.cc
+  EmStandardPhysics.cc
+  EventAction.cc
+  GammaPhysics.cc
+  HistoManager.cc
+  PhysicsList.cc
+  PrimaryGeneratorAction.cc
+  Run.cc
+  RunAction.cc
+  SteppingAction.cc
+  SteppingVerbose.cc
+  TrackingAction.cc
+  Generating Code...
+  rdecay02.vcxproj -> C:\Users\qzhang\Desktop\buildDetectorEnergy180\Debug\rdecay02.exe
+  rdecay02.vcxproj -> C:/Users/qzhang/Desktop/buildDetectorEnergy180/Debug/rdecay02.pdb (Full PDB)

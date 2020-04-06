@@ -1,0 +1,17 @@
+﻿  Building Custom Rule C:/Users/qzhang/Desktop/Pol01/CMakeLists.txt
+  CMake does not need to re-run because C:/Users/qzhang/Desktop/buildPol1/CMakeFiles/generate.stamp is up-to-date.
+  Pol01.cc
+  DetectorConstruction.cc
+  DetectorMessenger.cc
+  EventAction.cc
+  PhysListEmPolarized.cc
+  PhysicsList.cc
+  PhysicsListMessenger.cc
+  PrimaryGeneratorAction.cc
+  RunAction.cc
+  StepMax.cc
+  StepMaxMessenger.cc
+  SteppingAction.cc
+  Generating Code...
+  Pol01.vcxproj -> C:\Users\qzhang\Desktop\buildPol1\Debug\Pol01.exe
+  Pol01.vcxproj -> C:/Users/qzhang/Desktop/buildPol1/Debug/Pol01.pdb (Full PDB)

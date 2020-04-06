@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\qzhang\Desktop\OnLine\BuildPositroniumDecay\CMakeFiles\6fa915e4b295fe302bcdbb67b2374707\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{816D8488-4E3D-3973-A0D6-32B9866C3078}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

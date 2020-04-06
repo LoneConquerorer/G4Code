@@ -1,0 +1,8 @@
+/run/numberOfThreads 12
+
+/run/initialize
+
+/random/setSeeds 74058656 45348456
+
+/gun/particle e+
+/run/beamOn 500000000
